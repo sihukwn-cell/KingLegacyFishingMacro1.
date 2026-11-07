@@ -17,7 +17,9 @@ jobs:
 
       - uses: gradle/actions/setup-gradle@v4
         with:
-          gradle-version: '8.9'
+          gradle-version: '17'
+        
+        
 
       - name: Extract project
         run: unzip -q KingPieceFishing_AndroidStudio_Project_v0.2.zip -d project
